@@ -1,0 +1,7 @@
+id,task,input,expected_label,key_terms,max_len,expected_name,expected_email,expected_phone
+1,summarization,"새로운 앱 버전이 출시되었습니다. 이번 업데이트는 시작 속도를 개선하고, 배터리 사용 시간을 늘렸습니다. 또한 다크모드를 지원합니다.",,,180,,,
+2,summarization,"지난 분기 보고서에 따르면 MAU가 18% 증가했고, 이탈율은 3% 감소했습니다. 추천 알고리즘 개선이 주요 원인으로 보입니다.",,"MAU|이탈율|알고리즘",160,,,
+3,classification,"서비스가 너무 느리고 결제 단계에서 계속 오류가 나요. 다시는 쓰고 싶지 않아요.",negative,,,,
+4,classification,"기능이 직관적이고 고객센터 응답도 빨랐어요. 친구에게도 추천할게요!",positive,,,,
+5,extraction,"문의요. 담당자 Jane Doe (jane@example.com), 연락처 010-1234-5678 입니다. 다음 주 회의 가능합니다.",,,,"Jane Doe",jane@example.com,010-1234-5678
+6,extraction,"담당: 홍길동, 이메일: gildong@company.co.kr / 전화 02-987-6543 로 연락주세요.",,,,"홍길동",gildong@company.co.kr,02-987-6543
