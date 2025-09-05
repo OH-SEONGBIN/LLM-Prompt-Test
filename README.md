@@ -97,15 +97,17 @@ id,task,input,expected_label,key_terms,max_len,expected_name,expected_email,expe
 
 ---
 
-## 📊 예시 결과
+## 📊 결과
 | set        | n | pass\_ratio | p50\_ms | p95\_ms | json\_ok | coverage | accuracy |
 | ---------- | - | ----------- | ------- | ------- | -------- | -------- | -------- |
-| baseline   | 6 | 1.0         | 1167.25 | 2766.89 | —        | —        | —        |
-| structured | 6 | 1.0         | 166.67  | 870.00  | 100.0    | —        | —        |
+| baseline   | 6 | 1.0         | 1867.25 | 2766.89 | —        | —        | —        |
+| structured | 6 | 1.0         | 1605.66 | 1897.87 | 100.0    | —        | —        |
+
+<img width="1187" height="280" alt="prompt_3_copy" src="https://github.com/user-attachments/assets/bb4257a6-a496-42c1-ac1a-9b2237c7b238" />
 
 Deltas (after vs before, structured vs baseline)
-- p50_ms: -85.7%
-- p95_ms: -68.6%
+- p50_ms: -14.0%
+- p95_ms: -31.4%
 - json_ok: +100.0%
 > (coverage/accuracy는 라벨 추가 후 활성)
 
