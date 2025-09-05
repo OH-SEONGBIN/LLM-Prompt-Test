@@ -105,6 +105,8 @@ id,task,input,expected_label,key_terms,max_len,expected_name,expected_email,expe
 
 <img width="1187" height="280" alt="prompt_3_copy" src="https://github.com/user-attachments/assets/bb4257a6-a496-42c1-ac1a-9b2237c7b238" />
 
+> pass_ratio/latency(p50/p95)/json_ok/coverage 등을 표준화해 비교
+
 Deltas (after vs before, structured vs baseline)
 - p50_ms: -14.0%
 - p95_ms: -31.4%
